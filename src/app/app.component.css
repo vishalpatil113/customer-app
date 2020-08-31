@@ -1,0 +1,19 @@
+.logo {
+  color: #000;
+  margin: 0px 10%;
+  float: left;
+  width: 50%;
+}
+
+.login_resigter {
+  color: #000;
+  margin: 0px 10%;
+  float: right;
+  width: 50%;
+  text-align: right
+}
+
+.login, .resigter {
+  display: inline-block;
+  margin-right: 20px;
+}

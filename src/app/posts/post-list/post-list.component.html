@@ -1,0 +1,10 @@
+<div class="postList" *ngIf="posts">
+  <h4 style="text-align:center"> Post list</h4>
+  <div class="PostListWapper">
+    <ul>
+      <li *ngFor="let p of posts"(click)="updatePost(p)">{{p.title}}</li>
+    </ul>
+
+  </div>
+
+</div>

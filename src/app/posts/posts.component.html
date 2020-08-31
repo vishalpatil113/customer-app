@@ -1,0 +1,26 @@
+<div class="toolbar" role="banner">
+  <div class="logo">
+    logo
+  </div>
+  <div class="login_resigter">
+    <div class="login">welcome</div>
+    <div class="UserName" *ngIf="user">{{user.name}}</div>
+  </div>
+</div>
+
+<div class="content" role="main">
+  <div class="postwapper">
+    <div class="postList">
+      <app-post-list (updatePostEmitter)="updatePostEmitter($event)"></app-post-list>
+
+    </div>
+    <div class="posts">
+      <app-post-detail [updatePost]="updatePost"></app-post-detail>
+    </div>
+  </div>
+ 
+
+</div>
+<div class="toolbar Footer" role="banner">
+  <p>footer</p>
+</div>

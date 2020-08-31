@@ -1,0 +1,32 @@
+.postDetailWapper {
+    width:100%;
+    border:1px solid #000;
+    height:100%;
+    position:relative;
+    overflow:hidden
+
+}
+.addPost {
+  float: right;
+  width: 100px;
+  height: 30px;
+  padding: 2% 0px 0px 2%;
+  box-shadow: 0 0 black;
+  z-index: 100000;
+  position: absolute;
+  right: 0;
+}
+.addFrom {
+  width: 100%;
+ 
+  position: absolute;
+  top: 50%;left:50%;
+  transform:translate(-50%,-50%)
+
+}
+
+
+
+
+
+

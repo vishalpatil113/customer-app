@@ -1,0 +1,22 @@
+<div class="formWapper" >
+  <div class="title"><h2> {{postTitle}}</h2></div>
+  <form [formGroup]="postForm" *ngIf="postForm">
+
+    <label>
+      title:
+      <input type="text" formControlName="title" required>
+    </label>
+
+    <label>
+      body:
+      <input type="text" formControlName="body" required>
+    </label>
+
+    <input type="hidden" formControlName="userId">
+    <input type="hidden" formControlName="id">
+
+
+    <button type="submit" (click)="save()">save</button>
+  </form>
+
+</div>

@@ -1,0 +1,10 @@
+<div class="postDetailWapper">
+  <div class="addPost">
+    <button type="submit" (click)="add()">Add Post</button>
+  </div>
+  <div class="addFrom" >
+    <div *ngIf="isAddpost">
+      <app-add-post></app-add-post>
+    </div>
+  </div>
+</div>
